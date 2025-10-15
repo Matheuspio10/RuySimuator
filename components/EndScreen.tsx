@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { type Ending } from '../types';
+import { type Ending } from '../types.ts';
 
 interface EndScreenProps {
   ending: Ending;

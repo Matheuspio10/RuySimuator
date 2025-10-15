@@ -1,7 +1,7 @@
 import React from 'react';
-import { type ShopItem, type Relationships } from '../types';
-import { CHARACTERS } from '../constants';
-import { CloseIcon, HeartIcon, MoneyIcon } from './icons';
+import { type ShopItem, type Relationships } from '../types.ts';
+import { CHARACTERS } from '../constants.ts';
+import { CloseIcon, HeartIcon, MoneyIcon } from './icons.tsx';
 
 interface ShopModalProps {
   isOpen: boolean;

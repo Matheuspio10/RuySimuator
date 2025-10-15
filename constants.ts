@@ -1,4 +1,4 @@
-import { CharacterId, RelationshipCharacterId, StatId, type Character, type Stats, type Scene, type Ending, Relationships, ShopItem, RelationshipMood } from './types';
+import { CharacterId, RelationshipCharacterId, StatId, type Character, type Stats, type Scene, type Ending, Relationships, ShopItem, RelationshipMood } from './types.ts';
 
 export const CHARACTERS: Record<CharacterId, Character> = {
   [CharacterId.RUY]: {

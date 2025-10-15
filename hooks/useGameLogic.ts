@@ -10,9 +10,9 @@ import {
   ShopItem,
   RelationshipCharacterId,
   RelationshipMood,
-} from '../types';
-import { INITIAL_STATS, STORY, ENDINGS, INITIAL_RELATIONSHIPS, CHARACTERS } from '../constants';
-import { generateNextScene } from '../services/aiService';
+} from '../types.ts';
+import { INITIAL_STATS, STORY, ENDINGS, INITIAL_RELATIONSHIPS, CHARACTERS } from '../constants.ts';
+import { generateNextScene } from '../services/aiService.ts';
 
 export const useGameLogic = () => {
   const [gameState, setGameState] = useState<GameState>({

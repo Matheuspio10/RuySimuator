@@ -1,7 +1,7 @@
 
 import React from 'react';
-import { type Stats, StatId } from '../types';
-import { STAT_ICONS } from './icons';
+import { type Stats, StatId } from '../types.ts';
+import { STAT_ICONS } from './icons.tsx';
 
 interface StatsDisplayProps {
   stats: Stats;

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { type Relationships, RelationshipMood, RelationshipState } from '../types';
-import { CHARACTERS, RELATIONSHIP_CHARACTERS } from '../constants';
-import { HeartIcon, ChevronDownIcon } from './icons';
+import { type Relationships, RelationshipMood, RelationshipState } from '../types.ts';
+import { CHARACTERS, RELATIONSHIP_CHARACTERS } from '../constants.ts';
+import { HeartIcon, ChevronDownIcon } from './icons.tsx';
 
 interface RelationshipPanelProps {
   relationships: Relationships;

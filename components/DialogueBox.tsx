@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { type Dialogue, type Choice } from '../types';
-import { CHARACTERS } from '../constants';
+import { type Dialogue, type Choice } from '../types.ts';
+import { CHARACTERS } from '../constants.ts';
 
 interface DialogueBoxProps {
   dialogue: Dialogue;

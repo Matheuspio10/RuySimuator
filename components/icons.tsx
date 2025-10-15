@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { StatId } from '../types';
+import { StatId } from '../types.ts';
 
 interface IconProps {
   className?: string;

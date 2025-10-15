@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { type Character } from '../types';
+import { type Character } from '../types.ts';
 
 interface CharacterSpriteProps {
   character: Character | null;

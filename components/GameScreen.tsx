@@ -1,12 +1,12 @@
 import React from 'react';
-import { type Scene, type Dialogue, type Choice, type Stats, type Relationships, ShopItem } from '../types';
-import { CHARACTERS, SHOP_ITEMS } from '../constants';
-import StatsDisplay from './StatsDisplay';
-import DialogueBox from './DialogueBox';
-import CharacterSprite from './CharacterSprite';
-import RelationshipPanel from './RelationshipPanel';
-import ShopModal from './ShopModal';
-import { GiftIcon } from './icons';
+import { type Scene, type Dialogue, type Choice, type Stats, type Relationships, ShopItem } from '../types.ts';
+import { CHARACTERS, SHOP_ITEMS } from '../constants.ts';
+import StatsDisplay from './StatsDisplay.tsx';
+import DialogueBox from './DialogueBox.tsx';
+import CharacterSprite from './CharacterSprite.tsx';
+import RelationshipPanel from './RelationshipPanel.tsx';
+import ShopModal from './ShopModal.tsx';
+import { GiftIcon } from './icons.tsx';
 
 interface GameScreenProps {
   scene: Scene;

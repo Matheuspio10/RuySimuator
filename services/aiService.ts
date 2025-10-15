@@ -1,6 +1,6 @@
 import { GoogleGenAI, Type } from "@google/genai";
-import { type Scene, type GameState, CharacterId, StatId, RelationshipCharacterId, RelationshipMood } from '../types';
-import { CHARACTERS, RELATIONSHIP_CHARACTERS } from "../constants";
+import { type Scene, type GameState, CharacterId, StatId, RelationshipCharacterId, RelationshipMood } from '../types.ts';
+import { CHARACTERS, RELATIONSHIP_CHARACTERS } from "../constants.ts";
 
 const ai = new GoogleGenAI({apiKey: process.env.API_KEY});
 

@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { GameStatus } from './types';
-import { useGameLogic } from './hooks/useGameLogic';
-import StartScreen from './components/StartScreen';
-import GameScreen from './components/GameScreen';
-import EndScreen from './components/EndScreen';
-import IntroAnimation from './components/IntroAnimation';
+import { GameStatus } from './types.ts';
+import { useGameLogic } from './hooks/useGameLogic.ts';
+import StartScreen from './components/StartScreen.tsx';
+import GameScreen from './components/GameScreen.tsx';
+import EndScreen from './components/EndScreen.tsx';
+import IntroAnimation from './components/IntroAnimation.tsx';
 
 const App: React.FC = () => {
   const { 
